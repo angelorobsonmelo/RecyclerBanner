@@ -11,6 +11,7 @@ android {
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
     }
 
     buildTypes {
@@ -25,4 +26,6 @@ android {
 dependencies {
     implementation 'com.android.support:appcompat-v7:27.0.2'
     implementation 'com.android.support:recyclerview-v7:27.0.2'
+    // Multidex
+    implementation 'com.android.support:multidex:1.0.3'
 }
