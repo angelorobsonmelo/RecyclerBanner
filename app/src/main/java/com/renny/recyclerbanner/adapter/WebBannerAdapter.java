@@ -1,14 +1,15 @@
 package com.renny.recyclerbanner.adapter;
 
 import android.content.Context;
-import androidx.recyclerview.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.bumptech.glide.Glide;
-import com.example.library.banner.BannerLayout;
+import com.example.library.banner.layoutmanager.BannerLayout;
 import com.renny.recyclerbanner.R;
 
 import java.util.List;

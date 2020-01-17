@@ -1,4 +1,4 @@
-package com.example.library.banner;
+package com.example.library.banner.layoutmanager;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -9,10 +9,6 @@ import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.LayerDrawable;
 import android.os.Handler;
 import android.os.Message;
-import androidx.core.view.GravityCompat;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.OrientationHelper;
-import androidx.recyclerview.widget.RecyclerView;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.util.TypedValue;
@@ -22,9 +18,12 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
+import androidx.core.view.GravityCompat;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.OrientationHelper;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.library.R;
-import com.example.library.banner.layoutmanager.CenterSnapHelper;
-import com.example.library.banner.layoutmanager.BannerLayoutManager;
 
 import static android.widget.AbsListView.OnScrollListener.SCROLL_STATE_IDLE;
 
